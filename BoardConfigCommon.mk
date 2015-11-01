@@ -41,6 +41,9 @@ GRAPHITE := true
 LTO := true
 TARGET_ENABLE_UKM := true
 
+# Platform
+USE_CLANG_PLATFORM_BUILD := true
+
 # Audio
 BOARD_HAVE_AUDIENCE_A2220 := true
 BOARD_HAVE_DOCK_USBAUDIO := true
