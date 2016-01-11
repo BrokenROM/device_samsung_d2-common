@@ -283,25 +283,14 @@
     <!-- Disable lockscreen translucent decor by default -->
     <bool name="config_enableLockScreenTranslucentDecor">true</bool>
 
-    <!-- Ambient Display : Dream of Notifications -->
-    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
-    <bool name="config_dozeAfterScreenOff">true</bool>
-
-    <!-- Screen brightness when dozing -->
-    <integer name="config_screenBrightnessDoze">10</integer>
-
-    <!-- Doze: force using accelerometer as pick up sensor -->
-    <!-- bool name="config_dozeUseAccelerometer">true</bool -->
-
-    <!-- Whether UI for multi user should be shown -->
-    <bool name="config_enableMultiUserUI">true</bool>
-
-    <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
-                   autodetected from the Configuration. -->
-    <bool name="config_showNavigationBar">true</bool>
-
-    <!-- Performance profiles -->
-    <!-- string name="config_perf_profile_prop">sys.perf.profile</string -->
-    <!-- string name="config_perf_profile_default_entry">1</string -->
+   <!-- Whether to enable Hardware FLP overlay which allows Hardware FLP to be
+         replaced by an app at run-time. When disabled, only the
+         config_hardwareFlpPackageName package will be searched for Hardware Flp,
+         otherwise packages whose signature matches the signatures of
+         config_locationProviderPackageNames will be searched, and the service
+         with the highest version number will be picked. Anyone who wants to
+         disable the overlay mechanism can set it to false.
+         -->
+    <bool name="config_enableHardwareFlpOverlay" translatable="false">false</bool>
 
 </resources>
