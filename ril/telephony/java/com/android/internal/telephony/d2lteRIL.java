@@ -593,3 +593,4 @@ public class d2lteRIL extends RIL implements CommandsInterface {
         super.setPreferredNetworkType(networkType, response);
     }
 }
+
