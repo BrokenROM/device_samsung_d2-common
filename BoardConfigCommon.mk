@@ -31,18 +31,12 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8960
 # Kernel
 TARGET_KERNEL_CONFIG        := cyanogen_d2_defconfig
 
-# Custom Kernel Toolchains
-KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin/"
-
 # Broken Optimizations
 USE_O3 := true
 STRICT := true
 GRAPHITE := true
 LTO := true
 TARGET_ENABLE_UKM := true
-
-# Platform
-USE_CLANG_PLATFORM_BUILD := true
 
 # Audio
 BOARD_HAVE_AUDIENCE_A2220 := true
