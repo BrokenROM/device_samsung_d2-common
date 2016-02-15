@@ -34,11 +34,11 @@ TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
 
 # Broken Optimizations
-USE_O3 := true
-STRICT := true
-GRAPHITE := true
-LTO := true
-TARGET_ENABLE_UKM := true
+# USE_O3 := true
+# STRICT := true
+# GRAPHITE := true
+# LTO := true
+# TARGET_ENABLE_UKM := true
 
 # Audio
 BOARD_HAVE_AUDIENCE_A2220 := true
