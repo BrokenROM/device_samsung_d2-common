@@ -22,11 +22,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.gps.qc_nlp_in_use=0 \
     ro.gps.agps_provider=1
 
-# tweaks
-dalvik.vm.image-dex2oat-filter=everything 
-dalvik.vm.dex2oat-filter=everything
-
 # camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.zsl.prop.enable=0
-

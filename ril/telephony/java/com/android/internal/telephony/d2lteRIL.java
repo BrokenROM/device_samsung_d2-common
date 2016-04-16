@@ -579,4 +579,3 @@ public class d2lteRIL extends RIL implements CommandsInterface {
         }
     }
 }
-
