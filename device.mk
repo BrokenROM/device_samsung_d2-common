@@ -36,7 +36,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    SnapdragonCamera
 
 # Doze
 PRODUCT_PACKAGES += \
